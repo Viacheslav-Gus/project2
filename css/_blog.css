@@ -323,22 +323,6 @@ background: #A3E8EC;
 	border: solid 2px #000;
 }
 
-.mix-box img {
-	position: absolute;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 8px 8px 0px 0px;
-} 
-
-.box-group {
-	position: absolute;
-    margin: 5px 5px;
-    top: 53%;
-}
-
 .box-group li {
     float: left;
     margin-right: 10px;
@@ -377,10 +361,30 @@ background: #A3E8EC;
 
 /*.box-counter {
 	position: absolute;
-    margin: 5px 5px;
-    top: 85%;
+	margin: 5px 5px;
 
-    font-family: 'Segoe UI';
+	top: 92%;
+	width: 100%;
+
+	font-family: 'Segoe UI';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	color: #23262D;
+}*/
+
+#box-p1 {
+	position: absolute;
+	margin: 5px 5px;
+    padding: 0;
+    /*margin: 0;*/
+	left: 15%;
+	width: 49%;
+	top: 92%;
+	
+	font-family: 'Segoe UI';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -389,29 +393,71 @@ background: #A3E8EC;
 	color: #23262D;
 }
 
-.box-counter #img1{
-   position: absolute;
-   height: 13px;
-   width: 13px;
-   top: 85%;
-   left: 0;
+#box-p2 {
+	position: absolute;
+	margin: 5px 5px;
+    padding: 0;
+    /*margin: 0;*/
+	left: 75%;
+	width: 49%;
+	top: 92%;
+	
+	font-family: 'Segoe UI';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
 
-   padding: 0;
-   margin: 0;
+	color: #23262D;
+}
 
-}	
+#box-img1 {
+	position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 8px 8px 0px 0px;
+} 
 
-.box-counter #img1{
-   position: absolute;
-   height: 13px;
-   width: 13px;
-   top: 85%;
-   right: 0;
+#box-img2 {
+	position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    top: 90%;
+    left: 0;
+}
 
-   padding: 0;
-   margin: 0;
+#box-img3 {
+	position: absolute;
+    padding: 0;
+   	margin: 0;
+    width: 14px;
+    top: 94%;
 
-}*/
+    left:10%;
+}
+
+#box-img4 {
+	position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 14px;
+    top: 94%;
+  
+   left: 70%;
+}
+
+.box-group {
+	position: absolute;
+    margin: 5px 5px;
+    top: 53%;
+}
+
+/*------------------------------------*/
+
     .mix,
     .gap {
         width: 290px;
