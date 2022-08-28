@@ -417,7 +417,7 @@ background: #A3E8EC;
         width: 290px;
         .mix-box.width: 290px;
         height: 408px;
-        background: blue;
+        /*background: blue;*/
     }
 
 /* Grid Breakpoints
@@ -432,7 +432,7 @@ background: #A3E8EC;
         width: 392px;
         .mix-box.width: 392px;
         height: 491px;
-        background: yellow;
+        /*background: yellow;*/
     }
 }
 
@@ -445,7 +445,7 @@ background: #A3E8EC;
         width: 402px;
         .mix-box.width: 402px;
         height: 501px;
-        background: orange;
+        /*background: orange;*/
     }
 }
 
@@ -457,7 +457,7 @@ background: #A3E8EC;
         width: 330px;
         .mix-box.width: 330px;
         height: 454px; 
-        background: blue;      
+        /*background: blue;      */
     }
 }
 
@@ -468,7 +468,7 @@ background: #A3E8EC;
         width: 290px;
         .mix-box.width: 290px;
         height: 408px;
-        background: green;
+        /*background: green;*/
     }
 }
 
