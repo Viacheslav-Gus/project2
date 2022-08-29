@@ -4,7 +4,7 @@
 @import url(_courses.css);
 @import url(_fonts.css);
 
-.header .container0 {
+.header .container {
     max-width: 1260px;
     margin: 0 auto;
     padding: 0 15px;

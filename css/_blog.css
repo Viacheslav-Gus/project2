@@ -213,7 +213,7 @@ h1 {
   	border: solid 1px #000;
 }
 
-.container1 .container {
+.mix-container1 {
     padding: 1rem;
 }
 
@@ -307,15 +307,7 @@ h1 {
 }
 
 
-
-/*
-.container1 .container{
-	height: 1200px;
-    padding: 1rem;
-    text-align: justify;
-}*/
-
-.container1 .container:after {
+.mix-container1:after {
     content: '';
     display: inline-block;
     width: 100%;
