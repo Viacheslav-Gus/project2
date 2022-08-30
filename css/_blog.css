@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Raleway&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Raleway&display=swap');
 
 @font-face {
   font-family: 'Segoe UI';
   src: url(/fonts/st-Regular.ttf) format('ttf'), url(/yoursite/fonts/st-Regular.woff) format('woff');
   font-weight: 400;
-}
+}*/
 
 /* body
 ---------------------------------------------------------------------- */
@@ -66,17 +66,18 @@ h1 {
 .h1-menu-list-item {
 	margin-right: 10px;
 	margin-left: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 
-}
-
-.h1-menu-list-link {
 	font-family: 'Segoe UI';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 19px;
 	color: #212836;
+}
+
+.h1-menu-list-link {
+
 	cursor: pointer;
 }
 
@@ -404,6 +405,7 @@ background: #A3E8EC;
 
 .mix-box:hover {
 	border: solid 1px #000;
+	border-radius: 8px 8px 0px 0px;
 
 }
 
