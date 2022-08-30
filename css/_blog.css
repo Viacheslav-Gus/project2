@@ -583,7 +583,7 @@ background: #A3E8EC;
         width: 392px;
         .mix-box.width: 392px;
         height: 491px;
-        /*background: yellow;*/
+
     }
 }
 
@@ -596,8 +596,40 @@ background: #A3E8EC;
         width: 402px;
         .mix-box.width: 402px;
         height: 501px;
-        /*background: orange;*/
+
     }
+}
+
+@media screen and (max-width: 1000px) 
+{
+	.controls {
+
+		height: 60px;
+	}
+
+	.controls button {
+		height: 2rem;
+		padding: 5px 8px;
+		margin-left: 5px;
+		gap: 5px;
+	}
+}
+
+@media screen and (max-width: 800px) 
+{
+	.controls {
+
+		height: 120px;
+		flex-wrap: wrap;
+		align-content: space-between;
+	}
+
+	.controls button {
+		height: 2rem;
+		padding: 2px 5px;
+		margin-left: 3px;
+		gap: 3px;
+	}
 }
 
 /* 2 Columns */
@@ -608,7 +640,6 @@ background: #A3E8EC;
         width: 330px;
         .mix-box.width: 330px;
         height: 454px; 
-        /*background: blue;      */
     }
 }
 
